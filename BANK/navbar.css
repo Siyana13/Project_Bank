@@ -1,0 +1,64 @@
+body {
+    background-color: #d5e7f5;
+    margin: 0;
+    font-family: "Courier New",monospace;
+
+}
+
+#nav_guests{
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #98c1e1;
+    border-bottom: 2px solid #000;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+.nav-link {
+    color: #04173c;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 15px 16px;
+    transition: background-color 0.3s ease; 
+    font-weight: bold;
+
+}
+
+.nav-icon {
+    float: right;
+    margin: 5px 5px;
+    transition: background-color 0.3s ease;
+}
+
+.container-cart {
+    position: relative;
+    text-align: right;
+    color: #000;
+  }
+
+.cart-index{
+    font-weight: bold;
+    font-size: 10pt;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    transform: translate(-50%, -50%);
+}
+
+.nav-icon:hover:not(.active){
+    background-color: #d5e7f5;
+
+}
+
+.nav-link:hover:not(.active) {
+    background-color: #d5e7f5;
+}
+  
+.active {
+   background-color: #04173c;
+   color: #98c1e1;
+}
